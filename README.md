@@ -1,6 +1,6 @@
 # Prodigy Infotech Web Development Internship - June 2025
 
-Hey everyone! I'm Latchan Chhetri, and this repository contains all 5 projects I completed during my Web Development Internship at Prodigy Infotech in July 2025. 🚀
+Hey everyone! I'm Latchan Chhetri, and this repository contains all 5 projects I completed during my Web Development Internship at Prodigy Infotech in June 2025. 
 
 ## Projects
 
@@ -20,7 +20,7 @@ Hey everyone! I'm Latchan Chhetri, and this repository contains all 5 projects I
 - Personal portfolio site with About, Projects, and Contact sections
 - Smooth scroll and responsive UI with custom styling
 
- 5. Weather App 🌦️
+ 5. Weather App 
 - Fetches real-time weather using OpenWeatherMap API
 - Displays temperature, condition, and humidity
 - Uses a CORS proxy for smooth GitHub Pages deployment
