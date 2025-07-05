@@ -1,40 +1,29 @@
-# Prodigy Infotech Web Development Internship - June 2025
+# Responsive Landing Page - Prodigy Infotech Internship Task 1
 
-Hey everyone! I'm Latchan Chhetri, and this repository contains all 5 projects I completed during my Web Development Internship at Prodigy Infotech in June 2025. 
+This is Task 1 of my **Web Development Internship** at **Prodigy Infotech** – a fully responsive landing page created using HTML and CSS.
 
-## Projects
+---
 
- 1. Responsive Landing Page
-- Built a fully responsive landing page using HTML & CSS
-- Clean layout with scrollable sections and anchors
+## Features
 
- 2. Stopwatch Web App
-- Functional stopwatch with Start, Pause, and Reset
-- Developed using HTML, CSS, and JavaScript
+- Clean and modern layout
+- Fully responsive on all screen sizes
+- Smooth navigation with anchors
 
- 3. Tic-Tac-Toe Game
-- Interactive 2-player game built with JS logic
-- Checks win conditions and handles draws
+---
 
- 4. Portfolio Website
-- Personal portfolio site with About, Projects, and Contact sections
-- Smooth scroll and responsive UI with custom styling
+## Technologies Used
 
- 5. Weather App 
-- Fetches real-time weather using OpenWeatherMap API
-- Displays temperature, condition, and humidity
-- Uses a CORS proxy for smooth GitHub Pages deployment
+- HTML5
+- CSS3
+- GitHub Pages for deployment
 
+---
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
-- Git & GitHub
-- OpenWeatherMap API
+## Internship Details
 
+**Company:** Prodigy Infotech  
+**Role:** Web Development Intern  
+**Month:** July 2025  
+**Task:** Responsive Landing Page  
 
-## Acknowledgement
-Special thanks to Prodigy Infotech for this opportunity.  
-It was a great learning experience working on real-world web development projects!
-thank you
