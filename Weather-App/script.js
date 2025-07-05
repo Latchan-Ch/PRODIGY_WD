@@ -1,4 +1,4 @@
-const apiKey = "b4bd360f78077ffefbb7b4921d7331a0";
+const apiKey = "11160a8e2e3a470fe022084f2bfa1fee";
 
 async function getWeather() {
   const city = document.getElementById("cityInput").value;
@@ -9,6 +9,7 @@ async function getWeather() {
     return;
   }
 
+  // Use CORS proxy to avoid GitHub Pages restrictions
   const url = `https://api.allorigins.win/raw?url=${encodeURIComponent(
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
   )}`;
