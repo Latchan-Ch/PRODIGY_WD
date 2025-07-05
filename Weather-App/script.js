@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY11160a8e2e3a470fe022084f2bfa1fee"; 
+const apiKey = "11160a8e2e3a470fe022084f2bfa1fee"; // key
 
 async function getWeather() {
   const city = document.getElementById("cityInput").value;
@@ -31,5 +31,6 @@ async function getWeather() {
     }
   } catch (error) {
     weatherDiv.innerHTML = `<p>Error fetching weather data.</p>`;
+    console.error(error);
   }
 }
