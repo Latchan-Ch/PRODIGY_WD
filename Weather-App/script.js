@@ -9,7 +9,9 @@ async function getWeather() {
     return;
   }
 
-  const url = `https://corsproxy.io/?https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+  const url = `https://api.allorigins.win/raw?url=${encodeURIComponent(
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
+  )}`;
 
   try {
     const response = await fetch(url);
