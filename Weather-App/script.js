@@ -9,7 +9,7 @@ async function getWeather() {
     return;
   }
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+  const url = `https://corsproxy.io/?https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
   try {
     const response = await fetch(url);
@@ -17,6 +17,8 @@ async function getWeather() {
 
     if (data.cod === "404") {
       weatherDiv.innerHTML = `<p>City not found.</p>`;
+    } else if (data.cod && data.cod !== 200) {
+      weatherDiv.innerHTML = `<p>Error: ${data.message}</p>`;
     } else {
       const temp = data.main.temp;
       const desc = data.weather[0].description;
@@ -31,6 +33,6 @@ async function getWeather() {
     }
   } catch (error) {
     weatherDiv.innerHTML = `<p>Error fetching weather data.</p>`;
-    console.error(error);
+    console.error("Fetch error:", error);
   }
 }
